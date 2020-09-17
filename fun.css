@@ -1,0 +1,52 @@
+body,
+ html{
+    width: 100%;
+    height: 100%;
+    font-family: 'montserrat' sans-serif;
+    background: url(tech.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+hr{
+    border-color: yellow;
+    max-width: 65px;
+    border-width: 3px;
+}
+
+.btn{
+    border-radius: 300px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-1{
+    padding: 1rem 2rem;
+}
+
+.btn-primary{
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:hover{
+    background-color: indianred;
+    border-color: indianred;
+    border-width: 5px;
+}
+
+.container{
+    
+    transition: all 1s;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+.buffer{
+    height: 69px;
+}
